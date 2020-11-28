@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Kdd.Common</id>
+    <version>1.0.0</version>
+    <authors>KDD Digital HealthCare GmbH</authors>
+    <owners>KDD Digital HealthCare GmbH</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains common code for KDD packages</description>
+    <projectUrl>https://github.com/KDD-Digital-Healthcare-GmbH/Kdd.Common</projectUrl>
+    <license type="expression">MIT</license>
+    <copyright>Copyright 2020</copyright>
+   <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+   </dependencies>
+  </metadata>
+<files>
+  <!-- .NETStandard2.1 -->
+  <file src="Kdd.Common/bin/Release/netstandard2.1/Kdd.Common.dll" target="lib/netstandard2.1/Kdd.Common.dll" />
+  <file src="Kdd.Common/bin/Release/netstandard2.1/Kdd.Common.pdb" target="lib/netstandard2.1/Kdd.Common.pdb" />
+</files>
+</package>
